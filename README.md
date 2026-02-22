@@ -35,8 +35,7 @@ Weather API (e.g., OpenWeatherMap API) – Real-time weather data
 This project uses a Weather API to fetch live weather data using fetch().
 
 Example API Call:
-const apiKey = "YOUR_API_KEY";
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+const apiKey = "YOUR_API_KEY" ;
 
 fetch(url)
   .then(response => response.json())
